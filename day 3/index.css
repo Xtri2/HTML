@@ -1,0 +1,102 @@
+/* external css example */
+b{
+    color:green;
+    font-size: 50px;
+    /* text shadow: xaffect yaffext blur radius blur color */
+    text-shadow: 4px 3px 15px blue;
+
+}
+/* id selector */
+#itallic text{
+    color:yellow;
+    background-color: black;
+    padding:40px;
+    box-shadow: 5px 6px 15px blue;
+    border: 3px solid orange;
+}
+/* class selector */
+.box{
+    background-color: teal;
+}
+
+.container{
+    background-color: burlywood;
+    width: fit-content;
+    /* margin: all sides */
+    /* margin: top/bottom  left/ right */
+    margin: 40px;
+    /* padding: top right bottom left */
+    /* shorthand property */
+    /* padding: 30px 10px 48px 100px */
+    padding: 20px 30px;
+    /* border radius: all corners */
+    /* top-right/ bottom left */
+    /* border radius: top-left top-right bottom-right bottom-left*/
+    border-radius: 20px 10px 40px 10px;
+    /* box shadow: xaffect yaffect blur-radius spread_radius_color */
+    box-shadow: 4px 5px 8px 3px rgba(0, 0, 255, 0.819);
+    border: 2px solid black;
+
+}
+
+/* child selector [>] */
+.container > p{
+    color: teal;
+    font-weight: bold;
+}
+
+/* descendant selector [] */
+/* looks for both direct and indirect and overwrites */
+
+.container p{
+    color:red;
+    font-style:italic;
+
+}
+/* group selector [,]*/
+#card i, #card b{
+    color: cadetblue;
+
+}
+
+.greeting{
+    color: teal;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.greeting span{
+    color:black;
+    font-size: 40px;
+
+}
+
+.greeting #Country_Name{
+    color:blue;
+    font-size: 20px;
+    font-style: italic;
+} 
+
+#fav-btn {
+    padding: 20px;
+    margin: 10px 15px;
+    border-style: none;
+    background-color: #2C2C2C;
+    color: white;
+    transition: 0.5s background-color;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+#fav-btn:hover{
+
+    background-color: #5a5959;
+
+}
+
+.nav-links{
+    cursor: none;
+}
